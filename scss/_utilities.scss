@@ -1,0 +1,20 @@
+$first-dark: #aaa;
+$second-dark: #000;
+$third-dark: #ccc;
+
+$first-light: #fff;
+
+.btn {
+  display: inline-block;
+  border: 1px solid $first-dark;
+  padding: 5px 15px;
+  border-radius: 35px;
+  text-decoration: none;
+  color: $first-dark;
+  transition: background-color .3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $third-dark;
+  }
+}
