@@ -170,4 +170,26 @@ span {
   line-height: 1.6;
   padding: 20px 10px;
 }
+
+.footer {
+  text-align: center;
+  padding: 50px 10px 30px;
+  color: #222;
+}
+
+.footer__header {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.footer__paragraph {
+  font-size: 0.8rem;
+  margin: 20px 0;
+}
+
+@media (min-width: 500px) {
+  .footer__header {
+    font-size: 2.4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
