@@ -1,0 +1,70 @@
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: $first-light;
+  box-shadow: 30px 10px 40px rgba($color: $second-dark, $alpha: 0.3), -30px 10px 40px rgba($color: $second-dark, $alpha: 0.3);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+
+    &--header {
+      text-align: center;
+      font-weight: 300;
+      letter-spacing: 1px;
+      font-size: 1.8rem;
+    }
+
+    &--paragraph {
+      color: $first-dark;
+      font-size: 0.8rem;
+    }
+  }
+
+  &__right {
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/camera.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media(min-width: 500px) {
+    flex-direction: row;
+
+    &__left {
+      min-height: 100vh;
+      flex-basis: 50%;
+      justify-content: center;
+
+      &--header {
+        font-size: 2.4rem;
+      }
+
+      &--paragraph {
+        margin-top: 20px;
+        font-size: 1.2rem;
+      }
+
+      .btn {
+        margin-top: 40px;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+      }
+    }
+
+    &__right {
+      min-height: 100vh;
+      flex-basis: 50%;
+    }
+  }
+}
