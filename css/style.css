@@ -130,4 +130,44 @@ span {
         flex-basis: 50%;
   }
 }
+
+.title {
+  background-color: #222;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.title__header {
+  display: inline-block;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  padding: 0 20px;
+  border-right: 1px dotted #fff;
+  border-left: 1px dotted #fff;
+}
+
+.picture {
+  background-color: #aaa;
+  text-align: center;
+  color: #222;
+}
+
+.picture__image {
+  display: block;
+  width: 100%;
+}
+
+.picture__header {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.picture__paragraph {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  padding: 20px 10px;
+}
 /*# sourceMappingURL=style.css.map */

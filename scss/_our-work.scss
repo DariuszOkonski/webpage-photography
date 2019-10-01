@@ -1,0 +1,39 @@
+.title {
+  background-color: $fourth-dark;
+  padding: 20px 0;
+  text-align: center;
+
+  &__header {
+    display: inline-block;
+    color: $first-light;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    padding: 0 20px;
+    border-right: 1px dotted $first-light;
+    border-left: 1px dotted $first-light;
+  }
+}
+
+.picture {
+  background-color: $first-dark;
+  text-align: center;
+  color: $fourth-dark;
+
+  &__image {
+    display: block;
+    width: 100%;
+  }
+
+  &__header {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  &__paragraph {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    padding: 20px 10px;
+  }
+}
