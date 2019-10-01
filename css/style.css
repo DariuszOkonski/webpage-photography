@@ -24,6 +24,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   background-color: #aaa;
@@ -185,6 +189,11 @@ span {
 .footer__paragraph {
   font-size: 0.8rem;
   margin: 20px 0;
+}
+
+.footer__btn {
+  background-color: #222;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 500px) {
